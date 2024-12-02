@@ -1,0 +1,17 @@
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:revealjs_theme: moon
+:revealjs_progress: true
+:revealjs_slideNumber: true
+:revealjs_history: true
+:revealjs_showNotes: false
+:revealjs_width: 1080
+:imagesdir: images
+:docinfo: private
+:kroki-server-url: https://kroki.io
+:kroki-default-format: png
+:icons: font
+
+:revealjs_totalTime: 4300
+
+= Presentation Title

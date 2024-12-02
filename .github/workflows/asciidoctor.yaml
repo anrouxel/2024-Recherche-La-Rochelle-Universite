@@ -1,0 +1,29 @@
+name: AsciiDoc to Reveal.js
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        container:
+            image: docker.io/asciidoctor/docker-asciidoctor:latest
+            volumes:
+                - .:/documents
+        
+        env:
+            REVEALJS_DIR: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+
+        steps:
+            - name: Generate Reveal.js presentation
+              run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki -D /documents/output /documents/index.adoc
+
+            - name: Commit and push changes
+              uses: JamesIves/github-pages-deploy-action@3.7.1
+              with:
+                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    BRANCH: gh-pages
+                    FOLDER: output
