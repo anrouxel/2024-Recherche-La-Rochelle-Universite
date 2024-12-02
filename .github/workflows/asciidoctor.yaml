@@ -19,7 +19,7 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
-            
+
             - name: Generate Reveal.js presentation
               run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki -D /documents/output /documents/index.adoc
 
@@ -29,3 +29,13 @@ jobs:
                     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                     BRANCH: gh-pages
                     FOLDER: output
+            - uses: actions/download-artifact@master
+              with:
+                name: page
+                path: .
+            - uses: actions/configure-pages@v4
+            - uses: actions/upload-pages-artifact@v3
+              with:
+                path: .
+            - id: deployment
+              uses: actions/deploy-pages@main
