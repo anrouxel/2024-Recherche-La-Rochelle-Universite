@@ -14,7 +14,7 @@
 
 :revealjs_totalTime: 4300
 
-= Analyse du comportement des souris par suivi vidéo
+== Analyse du comportement des souris par suivi vidéo
 
 Référents : BURIE Jean-Christophe (L3i) | PEREZ-VILLALBA Ana (UCV)
 
