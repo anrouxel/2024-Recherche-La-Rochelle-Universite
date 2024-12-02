@@ -22,13 +22,6 @@ jobs:
 
             - name: Generate Reveal.js presentation
               run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki index.adoc
-
-            - name: Commit and push changes
-              uses: JamesIves/github-pages-deploy-action@3.7.1
-              with:
-                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                    BRANCH: gh-pages
-                    FOLDER: output
             - uses: actions/download-artifact@master
               with:
                 name: page
