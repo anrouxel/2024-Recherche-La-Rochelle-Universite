@@ -21,7 +21,7 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Generate Reveal.js presentation
-              run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki -D /documents/output /documents/index.adoc
+              run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki index.adoc
 
             - name: Commit and push changes
               uses: JamesIves/github-pages-deploy-action@3.7.1
