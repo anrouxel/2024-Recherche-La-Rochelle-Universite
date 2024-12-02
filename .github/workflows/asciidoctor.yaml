@@ -18,6 +18,8 @@ jobs:
             REVEALJS_DIR: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
 
         steps:
+            - uses: actions/checkout@v4
+            
             - name: Generate Reveal.js presentation
               run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki -D /documents/output /documents/index.adoc
 
