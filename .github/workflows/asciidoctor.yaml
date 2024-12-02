@@ -22,12 +22,27 @@ jobs:
 
             - name: Generate Reveal.js presentation
               run: asciidoctor-revealjs -a revealjsdir=${REVEALJS_DIR} -r asciidoctor-kroki index.adoc
-            - uses: actions/download-artifact@master
+            - uses: actions/upload-artifact@master
               with:
+                name: page
                 path: .
-            - uses: actions/configure-pages@v4
-            - uses: actions/upload-pages-artifact@v3
-              with:
-                path: .
-            - id: deployment
-              uses: actions/deploy-pages@main
+    deploy:
+        needs: build
+        permissions:
+            pages: write
+            id-token: write
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/download-artifact@master
+          with:
+            name: page
+            path: .
+        - uses: actions/configure-pages@v4
+        - uses: actions/upload-pages-artifact@v3
+          with:
+            path: .
+        - id: deployment
+          uses: actions/deploy-pages@main
