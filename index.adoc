@@ -26,3 +26,88 @@ Master 1 : PHILIPPE Noah | ROUXEL Antonin | VALENTIN Teddy
 
 [.small]
 Master 2 : BAIROUK Oumaima | DESCOINS Bérénice | PIAUD Joackim
+
+== Contexte L3i
+
+Le L3i est le Laboratoire Informatique, Image et Interaction.
+
+. Équipes principales :
+  * Images et contenus
+  * Modèles et connaissances
+  * Dynamiques des systèmes et adaptativité
+
+Collaborations :  
+Entreprises, laboratoires, et l'Université Catholique de Valence.  
+Financement : Programme EU-CONNEXUS (Seed Funding).
+
+== Problématique scientifique
+
+**Problème posé :**  
+Analyser les interactions sociales des souris exposées au TMAO à travers des vidéos filmées en vue verticale.
+
+**Interactions à observer :**
+
+* Contacts physiques (ex. : contact "nez-nez").
+* Déplacements synchronisés (ex. : côte à côte).
+* Comportements individuels (ex. : souris isolée).
+
+== Contexte scientifique
+
+Le verrou scientifique réside dans l'analyse précise et automatisée du comportement des souris.
+  
+**Défis :**
+
+* Suivi précis des souris.
+* Identification des comportements.
+* Utilisation de techniques avancées.
+
+== Technologies identifiées
+
+Les solutions sont basées sur l'analyse d'images :
+
+* Techniques de vision par ordinateur (Computer Vision, CV).  
+* Techniques d'apprentissage machine (Machine Learning, ML).  
+* Techniques d'apprentissage profond (Deep Learning, DL).  
+
+== Articles scientifiques
+
+. Évolutions technologiques clés :
+  * 2010 : Vision par ordinateur.
+  * 2013 : Annotation automatique comparable aux humains.
+  * 2014 : Identification sans marqueur pour plusieurs espèces.
+  * 2015 : Réseaux de neurones.
+  * 2017 : Apprentissage non supervisé.
+  * 2018 : Apprentissage profond pour interactions fines.
+  * 2023 : Analyse en temps réel.
+
+== Les données
+
+Les vidéos contiennent les interactions suivantes :  
+
+* Contacts physiques.  
+* Déplacements synchronisés.  
+* Comportements isolés.
+
+== Diagramme de Gantt
+
+**Insérez ici un visuel du diagramme de Gantt.**
+
+== Répartition des tâches
+
+**Détails sur les contributions des membres.**
+
+== Conclusion
+
+**Synthèse :**  
+Le projet propose une approche innovante pour analyser les comportements sociaux des souris avec des techniques de machine learning appliquées à des vidéos.
+
+**Importance des résultats :**  
+Les résultats offrent une meilleure compréhension de l'impact du TMAO et proposent des outils généralisables d'analyse comportementale.
+
+== Sources
+
+* Google Scholar: https://scholar.google.fr/  
+* Research Rabbit: https://www.researchrabbit.ai/  
+* Elicit: https://elicit.org/  
+* SJR: https://www.scimagojr.com/journalrank.php  
+* Deep Lab Cut: https://www.mackenziemathislab.org/deeplabcut  
