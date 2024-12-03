@@ -7,6 +7,7 @@
 :revealjs_showNotes: false
 :revealjs_width: 1080
 :imagesdir: images
+:customcss: css/style.css
 :docinfo: private
 :kroki-server-url: https://kroki.io
 :kroki-default-format: png
