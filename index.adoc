@@ -15,13 +15,13 @@
 :revealjs_totalTime: 4300
 
 == Analyse du comportement des souris par suivi vidéo
-image::imgs/title.jpg[background, size=cover]
+image::title.jpg[background, size=cover]
 
 [.small]
-Référents : BURIE Jean-Christophe (L3i) | PEREZ-VILLALBA Ana (UCV)
+**Référents :** BURIE Jean-Christophe (L3i) | PEREZ-VILLALBA Ana (UCV)
 
 [.small]
-Master 1 : PHILIPPE Noah | ROUXEL Antonin | VALENTIN Teddy
+**Master 1 :** PHILIPPE Noah | ROUXEL Antonin | VALENTIN Teddy
 
 [.small]
-Master 2 : BAIROUK Oumaima | DESCOINS Bérénice | PIAUD Joackim
+**Master 2 :** BAIROUK Oumaima | DESCOINS Bérénice | PIAUD Joackim
