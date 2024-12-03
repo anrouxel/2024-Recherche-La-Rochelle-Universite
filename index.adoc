@@ -1,5 +1,5 @@
 :source-highlighter: highlightjs
-:highlightjs-theme: github
+:highlightjs-theme: css/dracula.css
 :revealjs_theme: moon
 :revealjs_progress: true
 :revealjs_slideNumber: true
@@ -11,6 +11,7 @@
 :kroki-server-url: https://kroki.io
 :kroki-default-format: png
 :icons: font
+:customcss: css/custom.css
 
 :revealjs_totalTime: 4300
 
