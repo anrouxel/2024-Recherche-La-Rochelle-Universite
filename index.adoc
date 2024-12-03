@@ -16,6 +16,7 @@
 
 == Analyse du comportement des souris par suivi vidéo
 
+[.small]
 Référents : BURIE Jean-Christophe (L3i) | PEREZ-VILLALBA Ana (UCV)
 
 Master 1 : PHILIPPE Noah | ROUXEL Antonin | VALENTIN Teddy
